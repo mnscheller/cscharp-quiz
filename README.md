@@ -24,8 +24,6 @@ Der Schwerpunkt liegt auf **objektorientierter Programmierung** und dem Arbeiten
 
 - Konsolenanwendung mit **.NET 8** (oder neuer)
 - **OOP ist Pflicht.** Mindestens folgende Klassen:
-  - `Question` — Frage, Antwortoptionen, richtige Antwort, Kategorie, Schwierigkeit, Punkte
-  - `HighscoreEntry` — Name, Punkte, Datum
   - `QuizGame` — Spielablauf (Frage stellen, Antwort prüfen, Punkte vergeben)
 - JSON-Verarbeitung mit `System.Text.Json`
 - **Keine 300-Zeilen `Main`-Methode!** Code sinnvoll in Methoden und Klassen aufteilen
@@ -70,17 +68,7 @@ Die Struktur ist in der Datei dokumentiert — schaut sie euch zuerst an, bevor 
 Die Abgabe erfolgt über einen **Pull Request** in diesem Repository.
 
 ### So geht's:
-
-1. **Repository forken** — oben rechts auf GitHub auf „Fork" klicken. Ihr bekommt eine eigene Kopie des Repos unter eurem Account.
-   📖 Anleitung: [Fork a repository (GitHub Docs)](https://docs.github.com/de/get-started/quickstart/fork-a-repo)
-2. Euren Fork **lokal klonen**:
-   ```
-   git clone <URL eures Forks>
-   ```
-3. Code regelmäßig committen und in euren Fork pushen — siehe Abschnitt **„Was macht einen guten Commit aus?"** weiter unten. Nicht erst am Ende einen Riesen-Commit machen!
-4. Wenn ihr fertig seid: Auf GitHub einen **Pull Request** von eurem Fork gegen den `main`-Branch des Original-Repos öffnen.
-   📖 Anleitung: [Creating a pull request from a fork (GitHub Docs)](https://docs.github.com/de/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
-5. **Im PR-Beschreibungstext (Pull Request Description)** schreibt ihr:
+1. **Im PR-Beschreibungstext (Pull Request Description)** schreibt ihr:
    - **Team**: Wer war dabei?
    - **Erledigt**: Welche Pflichtaufgaben sind fertig?
    - **Bonus**: Welche Bonus-Features habt ihr umgesetzt?
@@ -92,9 +80,6 @@ Die Abgabe erfolgt über einen **Pull Request** in diesem Repository.
 - [ ] Lauffähiger C#-Code (`dotnet run` startet das Spiel)
 - [ ] Aussagekräftige Commit-Messages
 - [ ] Ausgefüllte PR-Beschreibung (siehe oben)
-
-**Wichtig**: Bitte keine `bin/` oder `obj/` Ordner committen! Nutzt eine passende `.gitignore`.
-
 ---
 
 ## Was macht einen guten Commit aus?
@@ -148,6 +133,16 @@ die Fragenliste entsprechend.
 
 📖 Mehr lesen: [How to Write a Git Commit Message (Chris Beams)](https://cbeams.com/posts/git-commit/)
 
----
 
-Viel Spaß und gutes Programmieren!
+
+
+Question — Frage, Antwortoptionen, richtige 
+
+
+
+Antwort, Kategorie, Schwierigkeit, Punkte
+
+
+
+HighscoreEntry — Name, Punkte, Datum
+ — Spielablauf (Frage stellen, Antwort prüfen, Punkte vergeben)

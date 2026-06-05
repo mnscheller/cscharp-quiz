@@ -1,0 +1,714 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "Datentypen",
+      "difficulty": "leicht",
+      "text": "Welcher Datentyp speichert eine ganze Zahl in C#?",
+      "options": ["string", "int", "bool", "double"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 2,
+      "category": "Datentypen",
+      "difficulty": "leicht",
+      "text": "Welcher Datentyp speichert nur true oder false?",
+      "options": ["bit", "bool", "byte", "boolean"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 3,
+      "category": "Datentypen",
+      "difficulty": "leicht",
+      "text": "Welcher Datentyp speichert ein einzelnes Zeichen?",
+      "options": ["string", "char", "byte", "letter"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 4,
+      "category": "Datentypen",
+      "difficulty": "leicht",
+      "text": "Was speichert ein string?",
+      "options": ["Eine ganze Zahl", "Eine Zeichenkette", "Einen Wahrheitswert", "Ein einzelnes Zeichen"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 5,
+      "category": "Datentypen",
+      "difficulty": "mittel",
+      "text": "Welcher Datentyp ist für Geldbeträge am besten geeignet?",
+      "options": ["int", "double", "decimal", "float"],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 6,
+      "category": "Datentypen",
+      "difficulty": "mittel",
+      "text": "Wie viele Bit hat ein long in C#?",
+      "options": ["16", "32", "64", "128"],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 7,
+      "category": "Datentypen",
+      "difficulty": "mittel",
+      "text": "Was bedeutet das Schlüsselwort var bei einer Variablendeklaration?",
+      "options": [
+        "Die Variable ist veränderbar (variable)",
+        "Der Typ wird vom Compiler aus dem Wert ermittelt",
+        "Die Variable ist global",
+        "Die Variable speichert beliebige Typen zur Laufzeit"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 8,
+      "category": "Datentypen",
+      "difficulty": "mittel",
+      "text": "Welcher Datentyp ist genauer für Nachkommastellen?",
+      "options": ["float", "double", "int", "short"],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 9,
+      "category": "Datentypen",
+      "difficulty": "schwer",
+      "text": "Was bedeutet die Schreibweise int? in C#?",
+      "options": [
+        "Eine Variable, deren Wert noch nicht festgelegt ist",
+        "Ein Nullable-int, der auch null sein kann",
+        "Eine Frage an den Compiler, ob int erlaubt ist",
+        "Ein optionaler Parameter"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+    {
+      "id": 10,
+      "category": "Datentypen",
+      "difficulty": "schwer",
+      "text": "Was passiert bei der Zuweisung: double d = 5; (ein int wird einer double zugewiesen)?",
+      "options": [
+        "Compilerfehler – nicht erlaubt",
+        "Implizite Typumwandlung von int nach double",
+        "Explizite Typumwandlung ist nötig",
+        "Laufzeitfehler"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+
+    {
+      "id": 11,
+      "category": "Schleifen",
+      "difficulty": "leicht",
+      "text": "Wie oft läuft diese Schleife: for (int i = 0; i < 5; i++) ?",
+      "options": ["4 mal", "5 mal", "6 mal", "unendlich"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 12,
+      "category": "Schleifen",
+      "difficulty": "leicht",
+      "text": "Welche Schleife wird mindestens einmal ausgeführt, auch wenn die Bedingung von Anfang an falsch ist?",
+      "options": ["for", "while", "do-while", "foreach"],
+      "correctAnswerIndex": 2,
+      "points": 10
+    },
+    {
+      "id": 13,
+      "category": "Schleifen",
+      "difficulty": "leicht",
+      "text": "Was bewirkt das Schlüsselwort break in einer Schleife?",
+      "options": [
+        "Es überspringt einen Durchlauf",
+        "Es verlässt die Schleife sofort",
+        "Es startet die Schleife neu",
+        "Es pausiert die Schleife"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 14,
+      "category": "Schleifen",
+      "difficulty": "leicht",
+      "text": "Was bewirkt continue in einer Schleife?",
+      "options": [
+        "Die Schleife wird beendet",
+        "Der aktuelle Durchlauf wird abgebrochen, der nächste startet",
+        "Die Schleife wird angehalten",
+        "Der Schleifenzähler wird zurückgesetzt"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 15,
+      "category": "Schleifen",
+      "difficulty": "mittel",
+      "text": "Worüber kann eine foreach-Schleife iterieren?",
+      "options": [
+        "Nur über Arrays",
+        "Nur über Listen",
+        "Über alle Objekte, die IEnumerable implementieren",
+        "Nur über Zahlen"
+      ],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 16,
+      "category": "Schleifen",
+      "difficulty": "mittel",
+      "text": "Wie viele Durchläufe macht: for (int i = 10; i > 0; i--) ?",
+      "options": ["9", "10", "11", "unendlich"],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 17,
+      "category": "Schleifen",
+      "difficulty": "mittel",
+      "text": "Welche Schleife eignet sich am besten, wenn die Anzahl der Durchläufe vorher bekannt ist?",
+      "options": ["while", "do-while", "for", "Es gibt keinen Unterschied"],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 18,
+      "category": "Schleifen",
+      "difficulty": "mittel",
+      "text": "Was tut while(true) ohne break?",
+      "options": [
+        "Läuft genau einmal",
+        "Läuft endlos",
+        "Compilerfehler",
+        "Läuft so lange, bis true den Wert false bekommt"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 19,
+      "category": "Schleifen",
+      "difficulty": "schwer",
+      "text": "Welches Interface muss eine Klasse (mindestens) anbieten, damit man sie mit foreach durchlaufen kann?",
+      "options": ["ICollection", "IList", "IEnumerable", "IIterable"],
+      "correctAnswerIndex": 2,
+      "points": 30
+    },
+    {
+      "id": 20,
+      "category": "Schleifen",
+      "difficulty": "schwer",
+      "text": "Wie oft wird die innere Anweisung ausgeführt? for (int i = 0; i < 3; i++) for (int j = 0; j < 4; j++) ...",
+      "options": ["7 mal", "10 mal", "12 mal", "16 mal"],
+      "correctAnswerIndex": 2,
+      "points": 30
+    },
+
+    {
+      "id": 21,
+      "category": "Collections",
+      "difficulty": "leicht",
+      "text": "Was ist eine List<T> in C#?",
+      "options": [
+        "Eine Liste mit fester Größe",
+        "Eine dynamische Liste, die wachsen und schrumpfen kann",
+        "Ein Synonym für Array",
+        "Eine Sammlung von Key-Value-Paaren"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 22,
+      "category": "Collections",
+      "difficulty": "leicht",
+      "text": "Mit welcher Methode fügt man ein Element an eine List<T> an?",
+      "options": ["Insert()", "Push()", "Add()", "Append()"],
+      "correctAnswerIndex": 2,
+      "points": 10
+    },
+    {
+      "id": 23,
+      "category": "Collections",
+      "difficulty": "leicht",
+      "text": "Wie greift man auf das erste Element einer List<T> namens 'items' zu?",
+      "options": ["items.First", "items[1]", "items[0]", "items.Get(1)"],
+      "correctAnswerIndex": 2,
+      "points": 10
+    },
+    {
+      "id": 24,
+      "category": "Collections",
+      "difficulty": "leicht",
+      "text": "Welcher Hauptunterschied besteht zwischen einem Array und einer List<T>?",
+      "options": [
+        "Es gibt keinen Unterschied",
+        "Arrays sind typsicher, Listen nicht",
+        "Arrays haben feste Größe, Listen sind dynamisch",
+        "Listen können nur Zahlen speichern"
+      ],
+      "correctAnswerIndex": 2,
+      "points": 10
+    },
+    {
+      "id": 25,
+      "category": "Collections",
+      "difficulty": "mittel",
+      "text": "Was speichert ein Dictionary<TKey, TValue>?",
+      "options": [
+        "Nur eindeutige Werte",
+        "Schlüssel-Wert-Paare",
+        "Eine sortierte Liste",
+        "Mehrere Werte unter einem Index"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 26,
+      "category": "Collections",
+      "difficulty": "mittel",
+      "text": "Was ist die Besonderheit eines HashSet<T>?",
+      "options": [
+        "Die Elemente sind immer sortiert",
+        "Es speichert Key-Value-Paare",
+        "Jedes Element kommt nur einmal vor",
+        "Es hat immer eine feste Größe"
+      ],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 27,
+      "category": "Collections",
+      "difficulty": "mittel",
+      "text": "Welche Eigenschaft gibt die Anzahl der Elemente einer List<T> zurück?",
+      "options": ["Size", "Length", "Count", "Total"],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 28,
+      "category": "Collections",
+      "difficulty": "mittel",
+      "text": "Welche Eigenschaft gibt die Anzahl der Elemente eines Arrays zurück?",
+      "options": ["Count", "Size", "Length", "Total"],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 29,
+      "category": "Collections",
+      "difficulty": "schwer",
+      "text": "Welche Collection arbeitet nach dem FIFO-Prinzip (First In, First Out)?",
+      "options": ["Stack<T>", "Queue<T>", "List<T>", "HashSet<T>"],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+    {
+      "id": 30,
+      "category": "Collections",
+      "difficulty": "schwer",
+      "text": "Was beschreibt IEnumerable<T> am besten?",
+      "options": [
+        "Eine Klasse für nummerierte Daten",
+        "Ein Interface für aufzählbare Sequenzen",
+        "Eine spezielle Form einer Liste",
+        "Eine Klasse, die nur Zahlen aufzählt"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+
+    {
+      "id": 31,
+      "category": "OOP",
+      "difficulty": "leicht",
+      "text": "Wie nennt man eine Vorlage, aus der Objekte erstellt werden?",
+      "options": ["Funktion", "Klasse", "Variable", "Methode"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 32,
+      "category": "OOP",
+      "difficulty": "leicht",
+      "text": "Welches Schlüsselwort wird verwendet, um ein neues Objekt zu erzeugen?",
+      "options": ["create", "new", "object", "make"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 33,
+      "category": "OOP",
+      "difficulty": "leicht",
+      "text": "Was ist ein Konstruktor?",
+      "options": [
+        "Eine spezielle Methode, die beim Erzeugen eines Objekts aufgerufen wird",
+        "Eine Methode, die ein Objekt zerstört",
+        "Eine Variable in einer Klasse",
+        "Eine besondere Art von Schleife"
+      ],
+      "correctAnswerIndex": 0,
+      "points": 10
+    },
+    {
+      "id": 34,
+      "category": "OOP",
+      "difficulty": "leicht",
+      "text": "Welches Schlüsselwort macht ein Feld von außerhalb der Klasse unsichtbar?",
+      "options": ["public", "internal", "private", "protected"],
+      "correctAnswerIndex": 2,
+      "points": 10
+    },
+    {
+      "id": 35,
+      "category": "OOP",
+      "difficulty": "mittel",
+      "text": "Wie heißt das Konzept, bei dem eine Klasse Eigenschaften und Verhalten einer anderen übernimmt?",
+      "options": ["Polymorphismus", "Vererbung", "Kapselung", "Abstraktion"],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 36,
+      "category": "OOP",
+      "difficulty": "mittel",
+      "text": "Wozu dient das Schlüsselwort this in einer Methode?",
+      "options": [
+        "Es verweist auf die Basisklasse",
+        "Es verweist auf das aktuelle Objekt (die aktuelle Instanz)",
+        "Es erzeugt ein neues Objekt",
+        "Es macht die Methode privat"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 37,
+      "category": "OOP",
+      "difficulty": "mittel",
+      "text": "Wozu dient das Schlüsselwort base?",
+      "options": [
+        "Es markiert die Hauptklasse eines Programms",
+        "Es erzeugt eine Basisvariable",
+        "Es spricht Mitglieder der Basisklasse an",
+        "Es macht eine Klasse abstrakt"
+      ],
+      "correctAnswerIndex": 2,
+      "points": 20
+    },
+    {
+      "id": 38,
+      "category": "OOP",
+      "difficulty": "mittel",
+      "text": "Was bedeutet override bei einer Methode?",
+      "options": [
+        "Die Methode wird gelöscht",
+        "Die Methode überschreibt eine virtuelle Methode der Basisklasse",
+        "Die Methode wird öffentlich gemacht",
+        "Die Methode wird statisch"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 39,
+      "category": "OOP",
+      "difficulty": "schwer",
+      "text": "Welche Aussage zum Unterschied von Interface und abstrakter Klasse ist richtig?",
+      "options": [
+        "Eine abstrakte Klasse kann keine Felder enthalten, ein Interface schon",
+        "Ein Interface kann keine Implementierungen vorgeben (abgesehen von default interface members), eine abstrakte Klasse schon",
+        "Eine Klasse kann nur ein Interface implementieren, aber mehrere abstrakte Klassen erben",
+        "Es gibt keinen Unterschied"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+    {
+      "id": 40,
+      "category": "OOP",
+      "difficulty": "schwer",
+      "text": "Was beschreibt der Begriff 'Kapselung' (Encapsulation) am besten?",
+      "options": [
+        "Eine Klasse erbt von einer anderen",
+        "Daten und Methoden werden in einer Klasse zusammengefasst und der Zugriff kann eingeschränkt werden",
+        "Mehrere Methoden mit gleichem Namen aber unterschiedlichen Parametern",
+        "Die Fähigkeit, ein Objekt in mehrere Typen umzuwandeln"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+
+    {
+      "id": 41,
+      "category": "Methoden",
+      "difficulty": "leicht",
+      "text": "Was bedeutet void als Rückgabetyp einer Methode?",
+      "options": [
+        "Die Methode gibt einen leeren string zurück",
+        "Die Methode gibt nichts zurück",
+        "Die Methode gibt null zurück",
+        "Die Methode darf nicht aufgerufen werden"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 42,
+      "category": "Methoden",
+      "difficulty": "leicht",
+      "text": "Was bewirkt das Schlüsselwort return in einer Methode?",
+      "options": [
+        "Es startet die Methode neu",
+        "Es beendet die Methode und gibt optional einen Wert zurück",
+        "Es ruft eine andere Methode auf",
+        "Es deklariert eine Variable"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 43,
+      "category": "Methoden",
+      "difficulty": "leicht",
+      "text": "Was sind Parameter einer Methode?",
+      "options": [
+        "Lokale Variablen, die nur innerhalb der Methode sichtbar sind",
+        "Werte, die der Methode beim Aufruf übergeben werden",
+        "Die Rückgabewerte der Methode",
+        "Schlüsselwörter für die Methodensignatur"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 44,
+      "category": "Methoden",
+      "difficulty": "leicht",
+      "text": "Wie ruft man eine Methode Begruessung() in C# auf?",
+      "options": ["call Begruessung", "Begruessung()", "Begruessung[]", "run Begruessung"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 45,
+      "category": "Methoden",
+      "difficulty": "mittel",
+      "text": "Was bedeutet Methodenüberladung (Overloading)?",
+      "options": [
+        "Eine Methode wird zu oft aufgerufen",
+        "Mehrere Methoden mit demselben Namen, aber unterschiedlichen Parametern",
+        "Eine Methode überschreibt eine Methode der Basisklasse",
+        "Eine Methode wird mit zu vielen Parametern aufgerufen"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 46,
+      "category": "Methoden",
+      "difficulty": "mittel",
+      "text": "Was bedeutet static bei einer Methode?",
+      "options": [
+        "Die Methode kann nicht verändert werden",
+        "Die Methode gehört zur Klasse, nicht zu einer Instanz",
+        "Die Methode läuft immer im Hintergrund",
+        "Die Methode darf keine Parameter haben"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 47,
+      "category": "Methoden",
+      "difficulty": "mittel",
+      "text": "Was gehört zur Methodensignatur in C#?",
+      "options": [
+        "Name und Rückgabetyp",
+        "Name und Parameterliste (Anzahl und Typen)",
+        "Nur der Name",
+        "Sichtbarkeit (public/private) und Name"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 48,
+      "category": "Methoden",
+      "difficulty": "mittel",
+      "text": "Was sind optionale Parameter?",
+      "options": [
+        "Parameter, die man auch komplett weglassen darf, weil sie einen Standardwert haben",
+        "Parameter, die zur Laufzeit erzeugt werden",
+        "Parameter ohne Typ",
+        "Parameter mit dem Schlüsselwort optional"
+      ],
+      "correctAnswerIndex": 0,
+      "points": 20
+    },
+    {
+      "id": 49,
+      "category": "Methoden",
+      "difficulty": "schwer",
+      "text": "Worin unterscheiden sich die Parameter-Modifier ref und out?",
+      "options": [
+        "Beide sind identisch",
+        "ref muss vor dem Aufruf initialisiert sein, out wird innerhalb der Methode zugewiesen",
+        "out muss vor dem Aufruf initialisiert sein, ref nicht",
+        "ref ist nur für Referenztypen, out nur für Wertetypen"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+    {
+      "id": 50,
+      "category": "Methoden",
+      "difficulty": "schwer",
+      "text": "Was ist eine Expression-bodied Method, z.B.: int Square(int x) => x * x;",
+      "options": [
+        "Eine Methode, die einen Ausdruck statt eines Blocks als Körper verwendet",
+        "Ein Lambda-Ausdruck",
+        "Eine asynchrone Methode",
+        "Eine Methode, die nur einmal aufgerufen werden darf"
+      ],
+      "correctAnswerIndex": 0,
+      "points": 30
+    },
+
+    {
+      "id": 51,
+      "category": "Kontrollstrukturen",
+      "difficulty": "leicht",
+      "text": "Wozu dient eine if-Anweisung?",
+      "options": [
+        "Sie wiederholt einen Codeblock",
+        "Sie führt einen Codeblock nur aus, wenn eine Bedingung wahr ist",
+        "Sie definiert eine Variable",
+        "Sie beendet das Programm"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 52,
+      "category": "Kontrollstrukturen",
+      "difficulty": "leicht",
+      "text": "Welcher Operator prüft auf Gleichheit?",
+      "options": ["=", "==", "===", "equals"],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 53,
+      "category": "Kontrollstrukturen",
+      "difficulty": "leicht",
+      "text": "Welcher Operator bedeutet 'ungleich'?",
+      "options": ["<>", "!=", "==!", "not="],
+      "correctAnswerIndex": 1,
+      "points": 10
+    },
+    {
+      "id": 54,
+      "category": "Kontrollstrukturen",
+      "difficulty": "leicht",
+      "text": "Wann wird der else-Zweig ausgeführt?",
+      "options": [
+        "Immer",
+        "Wenn die if-Bedingung wahr ist",
+        "Wenn die if-Bedingung falsch ist",
+        "Nur wenn ein Fehler auftritt"
+      ],
+      "correctAnswerIndex": 2,
+      "points": 10
+    },
+    {
+      "id": 55,
+      "category": "Kontrollstrukturen",
+      "difficulty": "mittel",
+      "text": "Welches Symbol steht in C# für das logische UND?",
+      "options": ["&", "&&", "and", "+"],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 56,
+      "category": "Kontrollstrukturen",
+      "difficulty": "mittel",
+      "text": "Welches Symbol steht in C# für das logische ODER?",
+      "options": ["|", "||", "or", "//"],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 57,
+      "category": "Kontrollstrukturen",
+      "difficulty": "mittel",
+      "text": "Wie sieht der ternäre Operator (Conditional Operator) in C# aus?",
+      "options": [
+        "bedingung ? wert1 : wert2",
+        "bedingung : wert1 ? wert2",
+        "if(bedingung) wert1 else wert2",
+        "bedingung ?? wert1 : wert2"
+      ],
+      "correctAnswerIndex": 0,
+      "points": 20
+    },
+    {
+      "id": 58,
+      "category": "Kontrollstrukturen",
+      "difficulty": "mittel",
+      "text": "Was passiert in einem klassischen switch-Statement, wenn am Ende eines case-Blocks kein break (oder return) steht?",
+      "options": [
+        "Der nächste case wird automatisch ausgeführt",
+        "Es entsteht ein Compilerfehler",
+        "Die Anwendung stürzt ab",
+        "Das switch wird wiederholt"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 20
+    },
+    {
+      "id": 59,
+      "category": "Kontrollstrukturen",
+      "difficulty": "schwer",
+      "text": "Was bedeutet Kurzschluss-Auswertung (short-circuit evaluation) bei &&?",
+      "options": [
+        "Beide Seiten werden immer ausgewertet",
+        "Wenn die linke Seite false ist, wird die rechte gar nicht mehr ausgewertet",
+        "Wenn die rechte Seite true ist, wird die linke nicht ausgewertet",
+        "Es gibt keine Kurzschluss-Auswertung in C#"
+      ],
+      "correctAnswerIndex": 1,
+      "points": 30
+    },
+    {
+      "id": 60,
+      "category": "Kontrollstrukturen",
+      "difficulty": "schwer",
+      "text": "Welche Aussage zum Unterschied zwischen switch und einer if/else-Kette ist am besten?",
+      "options": [
+        "switch ist immer schneller als if/else",
+        "switch kann jede beliebige Bedingung prüfen, if/else nur Gleichheit",
+        "switch eignet sich vor allem zum Vergleich eines Wertes mit mehreren konkreten Fällen, if/else für beliebige Bedingungen",
+        "Es gibt keinen funktionalen Unterschied"
+      ],
+      "correctAnswerIndex": 2,
+      "points": 30
+    }
+  ]
+}

@@ -22,7 +22,6 @@ Der Schwerpunkt liegt auf **objektorientierter Programmierung** und dem Arbeiten
 
 ## Technische Vorgaben
 
-- Konsolenanwendung mit **.NET 8** (oder neuer)
 - **OOP ist Pflicht.** Mindestens folgende Klassen:
   - `QuizGame` — Spielablauf (Frage stellen, Antwort prüfen, Punkte vergeben)
 - JSON-Verarbeitung mit `System.Text.Json`
@@ -133,16 +132,3 @@ die Fragenliste entsprechend.
 
 📖 Mehr lesen: [How to Write a Git Commit Message (Chris Beams)](https://cbeams.com/posts/git-commit/)
 
-
-
-
-Question — Frage, Antwortoptionen, richtige 
-
-
-
-Antwort, Kategorie, Schwierigkeit, Punkte
-
-
-
-HighscoreEntry — Name, Punkte, Datum
- — Spielablauf (Frage stellen, Antwort prüfen, Punkte vergeben)

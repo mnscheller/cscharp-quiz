@@ -1,6 +1,6 @@
 namespace Quizgame.Models
 {
-    class HighscrooreEntry
+    class HighscoreEntry
     {
         public required string Name { get; set; }
 

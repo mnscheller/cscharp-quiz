@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Quizgame.Models;
+namespace QuizGame.Models;
 
 
 public class QuizDataWrapper

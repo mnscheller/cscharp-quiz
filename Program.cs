@@ -5,7 +5,8 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 
 
-using Quizgame.Models;
+using QuizGame.Models;
+using QuizGame.UI;
 
 namespace QuizGame
 {
@@ -16,14 +17,18 @@ namespace QuizGame
             Console.Clear();
             Console.Title = "QuizGame";
 
-            string filePath = $"questions.json";
+            QuizUI qui = new QuizUI();
 
+
+
+            string filePath = $"questions.json";
             List<Question> questions = LoadQuestions(filePath);
 
             // Prüfen, ob das Laden erfolgreich war
             if (questions != null && questions.Count > 0)
             {
                 Console.WriteLine($"Erfolgreich {questions.Count} Fragen geladen!");
+                qui.PrepareUI();
 
             }
             else

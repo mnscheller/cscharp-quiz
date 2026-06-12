@@ -1,4 +1,4 @@
-namespace Quizgame.Models
+namespace QuizGame.Models
 {
     class HighscoreEntry
     {

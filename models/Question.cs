@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Quizgame.Models
+namespace QuizGame.Models
 {
     public class Question
     {
@@ -23,7 +23,7 @@ namespace Quizgame.Models
         public Difficulty Difficulty { get; set; }
 
         [JsonPropertyName("points")]
-        public int Point { get; set; }
+        public int Points { get; set; }
     }
 
     public enum Difficulty

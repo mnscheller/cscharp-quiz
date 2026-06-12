@@ -1,5 +1,6 @@
 # Projekt: Quiz-App in C#
-## test funktioniert alles mit dem pull
+## test funktioniert alles mit dem pull Hallo
+
 ## Worum geht's?
 
 Ihr entwickelt **zu zweit (Pair Programming)** eine Quiz-App als Konsolenanwendung in C#. Das Thema eurer Fragen ist **C#** — ein paar Fragen sind schon in `questions.json` enthalten, weitere schreibt ihr selbst dazu.

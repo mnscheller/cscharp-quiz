@@ -30,11 +30,17 @@ namespace QuizGame.UI
             {
                 Console.WriteLine($"{i + 1}. {Question.AnswerOption[i]}");
             }
-            // dskf
-            // answerInput(Question);
+
             Console.WriteLine("Bitte geben Sie die Nummer der richtigen Antwort ein:");
             string userInput = Console.ReadLine();
-            if (userInput == (Qestion.RightAnswerId))
+            if (userInput == Question.RightAnswerId.ToString())
+            {
+                Console.WriteLine("Richtig! Sie erhalten 10 Punkte.");
+            }
+            else
+            {
+                Console.WriteLine("Falsch! Die richtige Antwort ist: " + Question.AnswerOption[Question.RightAnswerId]);
+            }
         }
     }
 }

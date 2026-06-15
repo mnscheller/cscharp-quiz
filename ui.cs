@@ -30,6 +30,8 @@ namespace QuizGame.UI
             {
                 Console.WriteLine($"{i + 1}. {Question.AnswerOption[i]}");
             }
+            // answerInput(Question);
+
 
         }
     }

@@ -34,7 +34,7 @@ namespace QuizGame.UI
             // answerInput(Question);
             Console.WriteLine("Bitte geben Sie die Nummer der richtigen Antwort ein:");
             string userInput = Console.ReadLine();
-
+            if (userInput == (Qestion.RightAnswerId))
         }
     }
 }

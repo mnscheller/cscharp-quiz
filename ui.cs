@@ -31,7 +31,8 @@ namespace QuizGame.UI
                 Console.WriteLine($"{i + 1}. {Question.AnswerOption[i]}");
             }
             // answerInput(Question);
-
+            Console.WriteLine("Bitte geben Sie die Nummer der richtigen Antwort ein:");
+            string userInput = Console.ReadLine();
 
         }
     }

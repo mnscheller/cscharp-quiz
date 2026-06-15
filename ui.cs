@@ -26,9 +26,6 @@ namespace QuizGame.UI
             };
             Console.WriteLine($"Frage: {Question.QuestionContent}");
 
-
-
-
             for (int i = 0; i < Question.AnswerOption.Count; i++)
             {
                 Console.WriteLine($"{i + 1}. {Question.AnswerOption[i]}");

@@ -19,8 +19,6 @@ namespace QuizGame
 
             QuizUI qui = new QuizUI();
 
-
-
             string filePath = $"questions.json";
             List<Question> questions = LoadQuestions(filePath);
 
@@ -28,7 +26,7 @@ namespace QuizGame
             if (questions != null && questions.Count > 0)
             {
                 Console.WriteLine($"Erfolgreich {questions.Count} Fragen geladen!");
-                qui.PrepareUI();
+                qui.PrepareUI(questions);
 
             }
             else
@@ -38,7 +36,8 @@ namespace QuizGame
 
         }
 
-        public static List<Question> LoadQuestions(string path)
+
+        private static List<Question> LoadQuestions(string path)
         {
             try
             {

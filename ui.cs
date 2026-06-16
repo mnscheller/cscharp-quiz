@@ -6,6 +6,7 @@ namespace QuizGame.UI
     class QuizUI
     {
         public void PrepareUI(List<Question> questions)
+
         {
             Console.WriteLine("Willkommen zum QuizGame!");
             var Question = new Question
@@ -36,12 +37,15 @@ namespace QuizGame.UI
             if (userInput == Question.RightAnswerId.ToString())
             {
                 Console.WriteLine("Richtig! Sie erhalten 10 Punkte.");
+
             }
             else
             {
-                Console.WriteLine("Falsch! Die richtige Antwort ist: " + Question.AnswerOption[Question.RightAnswerId]);
+                Console.WriteLine("Falsch! Die richtige Antwort ist: " + "Hier korrekte Answer einfügen!!!!!!");
             }
         }
     }
+
+
 }
 

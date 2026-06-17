@@ -24,6 +24,8 @@ namespace QuizGame.UI
                 Category = "Datentypen",
                 Difficulty = Difficulty.leicht,
                 Points = 10
+
+
             };
             Console.WriteLine($"Frage: {Question.QuestionContent}");
 

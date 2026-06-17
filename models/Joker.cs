@@ -6,7 +6,7 @@ namespace QuizGame.Joker
     {
         public void PreparJoker()
         {
-
+            // Console.
         }
     }
 }

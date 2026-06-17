@@ -5,7 +5,12 @@
       "category": "Datentypen",
       "difficulty": "leicht",
       "text": "Welcher Datentyp speichert eine ganze Zahl in C#?",
-      "options": ["string", "int", "bool", "double"],
+      "options": [
+        "string",
+        "int",
+        "bool",
+        "double"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -14,7 +19,12 @@
       "category": "Datentypen",
       "difficulty": "leicht",
       "text": "Welcher Datentyp speichert nur true oder false?",
-      "options": ["bit", "bool", "byte", "boolean"],
+      "options": [
+        "bit",
+        "bool",
+        "byte",
+        "boolean"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -23,7 +33,12 @@
       "category": "Datentypen",
       "difficulty": "leicht",
       "text": "Welcher Datentyp speichert ein einzelnes Zeichen?",
-      "options": ["string", "char", "byte", "letter"],
+      "options": [
+        "string",
+        "char",
+        "byte",
+        "letter"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -32,7 +47,12 @@
       "category": "Datentypen",
       "difficulty": "leicht",
       "text": "Was speichert ein string?",
-      "options": ["Eine ganze Zahl", "Eine Zeichenkette", "Einen Wahrheitswert", "Ein einzelnes Zeichen"],
+      "options": [
+        "Eine ganze Zahl",
+        "Eine Zeichenkette",
+        "Einen Wahrheitswert",
+        "Ein einzelnes Zeichen"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -41,7 +61,12 @@
       "category": "Datentypen",
       "difficulty": "mittel",
       "text": "Welcher Datentyp ist für Geldbeträge am besten geeignet?",
-      "options": ["int", "double", "decimal", "float"],
+      "options": [
+        "int",
+        "double",
+        "decimal",
+        "float"
+      ],
       "correctAnswerIndex": 2,
       "points": 20
     },
@@ -50,7 +75,12 @@
       "category": "Datentypen",
       "difficulty": "mittel",
       "text": "Wie viele Bit hat ein long in C#?",
-      "options": ["16", "32", "64", "128"],
+      "options": [
+        "16",
+        "32",
+        "64",
+        "128"
+      ],
       "correctAnswerIndex": 2,
       "points": 20
     },
@@ -73,7 +103,12 @@
       "category": "Datentypen",
       "difficulty": "mittel",
       "text": "Welcher Datentyp ist genauer für Nachkommastellen?",
-      "options": ["float", "double", "int", "short"],
+      "options": [
+        "float",
+        "double",
+        "int",
+        "short"
+      ],
       "correctAnswerIndex": 1,
       "points": 20
     },
@@ -105,13 +140,17 @@
       "correctAnswerIndex": 1,
       "points": 30
     },
-
     {
       "id": 11,
       "category": "Schleifen",
       "difficulty": "leicht",
       "text": "Wie oft läuft diese Schleife: for (int i = 0; i < 5; i++) ?",
-      "options": ["4 mal", "5 mal", "6 mal", "unendlich"],
+      "options": [
+        "4 mal",
+        "5 mal",
+        "6 mal",
+        "unendlich"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -120,7 +159,12 @@
       "category": "Schleifen",
       "difficulty": "leicht",
       "text": "Welche Schleife wird mindestens einmal ausgeführt, auch wenn die Bedingung von Anfang an falsch ist?",
-      "options": ["for", "while", "do-while", "foreach"],
+      "options": [
+        "for",
+        "while",
+        "do-while",
+        "foreach"
+      ],
       "correctAnswerIndex": 2,
       "points": 10
     },
@@ -171,7 +215,12 @@
       "category": "Schleifen",
       "difficulty": "mittel",
       "text": "Wie viele Durchläufe macht: for (int i = 10; i > 0; i--) ?",
-      "options": ["9", "10", "11", "unendlich"],
+      "options": [
+        "9",
+        "10",
+        "11",
+        "unendlich"
+      ],
       "correctAnswerIndex": 1,
       "points": 20
     },
@@ -180,7 +229,12 @@
       "category": "Schleifen",
       "difficulty": "mittel",
       "text": "Welche Schleife eignet sich am besten, wenn die Anzahl der Durchläufe vorher bekannt ist?",
-      "options": ["while", "do-while", "for", "Es gibt keinen Unterschied"],
+      "options": [
+        "while",
+        "do-while",
+        "for",
+        "Es gibt keinen Unterschied"
+      ],
       "correctAnswerIndex": 2,
       "points": 20
     },
@@ -203,7 +257,12 @@
       "category": "Schleifen",
       "difficulty": "schwer",
       "text": "Welches Interface muss eine Klasse (mindestens) anbieten, damit man sie mit foreach durchlaufen kann?",
-      "options": ["ICollection", "IList", "IEnumerable", "IIterable"],
+      "options": [
+        "ICollection",
+        "IList",
+        "IEnumerable",
+        "IIterable"
+      ],
       "correctAnswerIndex": 2,
       "points": 30
     },
@@ -212,11 +271,15 @@
       "category": "Schleifen",
       "difficulty": "schwer",
       "text": "Wie oft wird die innere Anweisung ausgeführt? for (int i = 0; i < 3; i++) for (int j = 0; j < 4; j++) ...",
-      "options": ["7 mal", "10 mal", "12 mal", "16 mal"],
+      "options": [
+        "7 mal",
+        "10 mal",
+        "12 mal",
+        "16 mal"
+      ],
       "correctAnswerIndex": 2,
       "points": 30
     },
-
     {
       "id": 21,
       "category": "Collections",
@@ -236,7 +299,12 @@
       "category": "Collections",
       "difficulty": "leicht",
       "text": "Mit welcher Methode fügt man ein Element an eine List<T> an?",
-      "options": ["Insert()", "Push()", "Add()", "Append()"],
+      "options": [
+        "Insert()",
+        "Push()",
+        "Add()",
+        "Append()"
+      ],
       "correctAnswerIndex": 2,
       "points": 10
     },
@@ -245,7 +313,12 @@
       "category": "Collections",
       "difficulty": "leicht",
       "text": "Wie greift man auf das erste Element einer List<T> namens 'items' zu?",
-      "options": ["items.First", "items[1]", "items[0]", "items.Get(1)"],
+      "options": [
+        "items.First",
+        "items[1]",
+        "items[0]",
+        "items.Get(1)"
+      ],
       "correctAnswerIndex": 2,
       "points": 10
     },
@@ -296,7 +369,12 @@
       "category": "Collections",
       "difficulty": "mittel",
       "text": "Welche Eigenschaft gibt die Anzahl der Elemente einer List<T> zurück?",
-      "options": ["Size", "Length", "Count", "Total"],
+      "options": [
+        "Size",
+        "Length",
+        "Count",
+        "Total"
+      ],
       "correctAnswerIndex": 2,
       "points": 20
     },
@@ -305,7 +383,12 @@
       "category": "Collections",
       "difficulty": "mittel",
       "text": "Welche Eigenschaft gibt die Anzahl der Elemente eines Arrays zurück?",
-      "options": ["Count", "Size", "Length", "Total"],
+      "options": [
+        "Count",
+        "Size",
+        "Length",
+        "Total"
+      ],
       "correctAnswerIndex": 2,
       "points": 20
     },
@@ -314,7 +397,12 @@
       "category": "Collections",
       "difficulty": "schwer",
       "text": "Welche Collection arbeitet nach dem FIFO-Prinzip (First In, First Out)?",
-      "options": ["Stack<T>", "Queue<T>", "List<T>", "HashSet<T>"],
+      "options": [
+        "Stack<T>",
+        "Queue<T>",
+        "List<T>",
+        "HashSet<T>"
+      ],
       "correctAnswerIndex": 1,
       "points": 30
     },
@@ -332,13 +420,17 @@
       "correctAnswerIndex": 1,
       "points": 30
     },
-
     {
       "id": 31,
       "category": "OOP",
       "difficulty": "leicht",
       "text": "Wie nennt man eine Vorlage, aus der Objekte erstellt werden?",
-      "options": ["Funktion", "Klasse", "Variable", "Methode"],
+      "options": [
+        "Funktion",
+        "Klasse",
+        "Variable",
+        "Methode"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -347,7 +439,12 @@
       "category": "OOP",
       "difficulty": "leicht",
       "text": "Welches Schlüsselwort wird verwendet, um ein neues Objekt zu erzeugen?",
-      "options": ["create", "new", "object", "make"],
+      "options": [
+        "create",
+        "new",
+        "object",
+        "make"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -370,7 +467,12 @@
       "category": "OOP",
       "difficulty": "leicht",
       "text": "Welches Schlüsselwort macht ein Feld von außerhalb der Klasse unsichtbar?",
-      "options": ["public", "internal", "private", "protected"],
+      "options": [
+        "public",
+        "internal",
+        "private",
+        "protected"
+      ],
       "correctAnswerIndex": 2,
       "points": 10
     },
@@ -379,7 +481,12 @@
       "category": "OOP",
       "difficulty": "mittel",
       "text": "Wie heißt das Konzept, bei dem eine Klasse Eigenschaften und Verhalten einer anderen übernimmt?",
-      "options": ["Polymorphismus", "Vererbung", "Kapselung", "Abstraktion"],
+      "options": [
+        "Polymorphismus",
+        "Vererbung",
+        "Kapselung",
+        "Abstraktion"
+      ],
       "correctAnswerIndex": 1,
       "points": 20
     },
@@ -453,7 +560,6 @@
       "correctAnswerIndex": 1,
       "points": 30
     },
-
     {
       "id": 41,
       "category": "Methoden",
@@ -501,7 +607,12 @@
       "category": "Methoden",
       "difficulty": "leicht",
       "text": "Wie ruft man eine Methode Begruessung() in C# auf?",
-      "options": ["call Begruessung", "Begruessung()", "Begruessung[]", "run Begruessung"],
+      "options": [
+        "call Begruessung",
+        "Begruessung()",
+        "Begruessung[]",
+        "run Begruessung"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -589,7 +700,6 @@
       "correctAnswerIndex": 0,
       "points": 30
     },
-
     {
       "id": 51,
       "category": "Kontrollstrukturen",
@@ -609,7 +719,12 @@
       "category": "Kontrollstrukturen",
       "difficulty": "leicht",
       "text": "Welcher Operator prüft auf Gleichheit?",
-      "options": ["=", "==", "===", "equals"],
+      "options": [
+        "=",
+        "==",
+        "===",
+        "equals"
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -618,7 +733,12 @@
       "category": "Kontrollstrukturen",
       "difficulty": "leicht",
       "text": "Welcher Operator bedeutet 'ungleich'?",
-      "options": ["<>", "!=", "==!", "not="],
+      "options": [
+        "<>",
+        "!=",
+        "==!",
+        "not="
+      ],
       "correctAnswerIndex": 1,
       "points": 10
     },
@@ -641,7 +761,12 @@
       "category": "Kontrollstrukturen",
       "difficulty": "mittel",
       "text": "Welches Symbol steht in C# für das logische UND?",
-      "options": ["&", "&&", "and", "+"],
+      "options": [
+        "&",
+        "&&",
+        "and",
+        "+"
+      ],
       "correctAnswerIndex": 1,
       "points": 20
     },
@@ -650,7 +775,12 @@
       "category": "Kontrollstrukturen",
       "difficulty": "mittel",
       "text": "Welches Symbol steht in C# für das logische ODER?",
-      "options": ["|", "||", "or", "//"],
+      "options": [
+        "|",
+        "||",
+        "or",
+        "//"
+      ],
       "correctAnswerIndex": 1,
       "points": 20
     },

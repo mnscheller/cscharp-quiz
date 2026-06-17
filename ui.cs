@@ -24,7 +24,7 @@ namespace QuizGame.UI
                 Category = "Datentypen",
                 Difficulty = Difficulty.leicht,
                 Points = 10
-
+                // QuestionId = 
 
             };
             Console.WriteLine($"Frage: {Question.QuestionContent}");
@@ -36,14 +36,17 @@ namespace QuizGame.UI
 
             Console.WriteLine("Bitte geben Sie die Nummer der richtigen Antwort ein:");
             string userInput = Console.ReadLine();
-            if (userInput == Question.RightAnswerId.ToString())
+            int UserInputInt = int.Parse(userInput);
+            UserInputInt = UserInputInt--;
+
+            if (UserInputInt == Question.RightAnswerId)
             {
                 Console.WriteLine("Richtig! Sie erhalten 10 Punkte.");
 
             }
             else
             {
-                Console.WriteLine("Falsch! Die richtige Antwort ist: " + "Hier korrekte Answer einfügen!!!!!!");
+                Console.WriteLine("Falsch! Die richtige Antwort ist: " + "");
             }
         }
     }

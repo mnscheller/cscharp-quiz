@@ -42,7 +42,7 @@ namespace QuizGame.UI
             }
             else
             {
-                Console.WriteLine("Die Antwort wahr falsch")
+                Console.WriteLine("Die Antwort wahr falsch");
             }
         }
     }
